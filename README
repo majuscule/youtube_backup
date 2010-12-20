@@ -1,6 +1,6 @@
 Script that backs up all the Youtube videos in a users favorites list and sends an asynchronous alert after successful downloads.
 
-This script allows you to simply backup locally all the Youtube-videos that you have favorited. A good way to keep up to date with your Youtube favorites is to add this script into cron and have it run daily. Remember to edit the settings in the first part of the script.
+This script allows you to simply backup locally all the Youtube videos that you have favorited. A good way to keep up to date with your Youtube favorites is to add this script into cron and have it run daily. Remember to edit the settings in the first part of the script.
 
 You can edit your crontab with the command "crontab -e". When using this script via cron, a display must be specified to send the notifications to. Here is an example:
 

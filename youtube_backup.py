@@ -92,6 +92,8 @@ def get_video_ids():
     for i in url_list:
         t = re_videoid.search(i)
         videolist[t.group('videoid')] = i
+    return videolist
+
 def check_for_existing():
     """ Checks the download-folder for existing videos with same id and removes from videolist. """
     videolist = get_video_ids()
