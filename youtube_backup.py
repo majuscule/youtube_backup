@@ -55,10 +55,11 @@ import re
 import copy
 import shlex, subprocess
 
-import pynotify
-import tempfile
-import string
-import hashlib
+if NOTIFICATIONS:
+    import pynotify
+    import tempfile
+    import string
+    import hashlib
 
 def get_urls(startindex):
     """ Fetches the next 10 video-URL's from startindex of USER's favourites.
